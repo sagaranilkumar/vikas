@@ -1,0 +1,1991 @@
+{
+  "report_id": "task_20250812_113141",
+  "generated_at": "2025-08-12T11:31:41.726517",
+  "document_count": 50,
+  "insight_count": 14,
+  "recommendation_count": 10,
+  "summary": {
+    "sentiment_distribution": {
+      "neutral": 36,
+      "positive": 6,
+      "negative": 8
+    },
+    "category_distribution": {
+      "technical_issues": 9,
+      "policy_recommendations": 6,
+      "resource_allocation": 6,
+      "system_improvements": 10,
+      "communication": 7,
+      "procedural_inefficiencies": 4,
+      "other": 5,
+      "training_needs": 3
+    },
+    "insight_severity": {
+      "high": 6,
+      "medium": 5,
+      "low": 3
+    },
+    "recommendation_priority": {
+      "high": 4,
+      "medium": 5,
+      "low": 1
+    },
+    "total_documents": 50,
+    "total_insights": 14,
+    "total_recommendations": 10
+  },
+  "sentiment_analysis": [
+    {
+      "document_id": "fb4605",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6116",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": [
+        "production issue"
+      ]
+    },
+    {
+      "document_id": "fb3718",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6436",
+      "sentiment": "positive",
+      "score": 0.4,
+      "confidence": 0.084,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6196",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb7908",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.087,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6090",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb3259",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.091,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb8174",
+      "sentiment": "positive",
+      "score": 0.52,
+      "confidence": 0.089,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb3589",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6654",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": [
+        "production issue"
+      ]
+    },
+    {
+      "document_id": "fb8361",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb5174",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.091,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb3216",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb5619",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6629",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb1202",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb9084",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.087,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb3258",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb3701",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": [
+        "production issue"
+      ]
+    },
+    {
+      "document_id": "fb6192",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb7704",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": [
+        "production issue"
+      ]
+    },
+    {
+      "document_id": "fb1583",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb2765",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb3425",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.081,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6954",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb7997",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6784",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.113,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb2182",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6835",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb9924",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb2728",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.091,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb2743",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.091,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb1159",
+      "sentiment": "positive",
+      "score": 0.4,
+      "confidence": 0.11,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb7409",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.145,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6363",
+      "sentiment": "positive",
+      "score": 0.52,
+      "confidence": 0.089,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb2569",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb8618",
+      "sentiment": "positive",
+      "score": 0.4,
+      "confidence": 0.104,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb7083",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb8011",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb5755",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb9813",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb2071",
+      "sentiment": "positive",
+      "score": 0.4,
+      "confidence": 0.096,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb7529",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb7613",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.087,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb8338",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb5955",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.145,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6700",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.091,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb6345",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": [
+        "configuration issue"
+      ]
+    },
+    {
+      "document_id": "fb1282",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    }
+  ],
+  "categorization": [
+    {
+      "document_id": "fb4605",
+      "primary_category": "technical_issues",
+      "secondary_categories": [],
+      "category_confidence": {
+        "technical_issues": 1.0
+      },
+      "keywords": [
+        "automated",
+        "deployment",
+        "pipeline",
+        "reduced",
+        "release",
+        "cycle",
+        "maintaining",
+        "zero",
+        "defect",
+        "deployments"
+      ],
+      "topics": [
+        "new automated deployment pipeline"
+      ]
+    },
+    {
+      "document_id": "fb6116",
+      "primary_category": "policy_recommendations",
+      "secondary_categories": [
+        "procedural_inefficiencies"
+      ],
+      "category_confidence": {
+        "policy_recommendations": 0.5625,
+        "procedural_inefficiencies": 0.43749999999999994
+      },
+      "keywords": [
+        "testing",
+        "protocol",
+        "lacks",
+        "comprehensive",
+        "edge",
+        "case",
+        "coverage",
+        "resulting",
+        "production",
+        "issues",
+        "prevented"
+      ],
+      "topics": [
+        "testing protocol"
+      ]
+    },
+    {
+      "document_id": "fb3718",
+      "primary_category": "resource_allocation",
+      "secondary_categories": [
+        "procedural_inefficiencies"
+      ],
+      "category_confidence": {
+        "resource_allocation": 0.489795918367347,
+        "procedural_inefficiencies": 0.38775510204081626
+      },
+      "keywords": [
+        "resource",
+        "allocation",
+        "process",
+        "manual",
+        "consuming",
+        "causing",
+        "project",
+        "delays",
+        "budget",
+        "overruns"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb6436",
+      "primary_category": "system_improvements",
+      "secondary_categories": [],
+      "category_confidence": {
+        "system_improvements": 1.0
+      },
+      "keywords": [
+        "user",
+        "redesigned",
+        "interface",
+        "improved",
+        "satisfaction",
+        "scores",
+        "reduced",
+        "support",
+        "tickets"
+      ],
+      "topics": [
+        "redesigned user interface"
+      ]
+    },
+    {
+      "document_id": "fb6196",
+      "primary_category": "resource_allocation",
+      "secondary_categories": [
+        "procedural_inefficiencies"
+      ],
+      "category_confidence": {
+        "resource_allocation": 0.489795918367347,
+        "procedural_inefficiencies": 0.38775510204081626
+      },
+      "keywords": [
+        "resource",
+        "allocation",
+        "process",
+        "manual",
+        "consuming",
+        "causing",
+        "project",
+        "delays",
+        "budget",
+        "overruns"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb7908",
+      "primary_category": "communication",
+      "secondary_categories": [],
+      "category_confidence": {
+        "communication": 1.0
+      },
+      "keywords": [
+        "database",
+        "query",
+        "optimization",
+        "needed",
+        "current",
+        "response",
+        "times",
+        "exceed",
+        "acceptable",
+        "thresholds",
+        "during",
+        "concurrent",
+        "operations"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb6090",
+      "primary_category": "communication",
+      "secondary_categories": [
+        "system_improvements"
+      ],
+      "category_confidence": {
+        "communication": 0.36363636363636365,
+        "system_improvements": 0.36363636363636365
+      },
+      "keywords": [
+        "suggest",
+        "adopting",
+        "agile",
+        "methodologies",
+        "improve",
+        "project",
+        "delivery",
+        "stakeholder",
+        "communication"
+      ],
+      "topics": [
+        "project delivery"
+      ]
+    },
+    {
+      "document_id": "fb3259",
+      "primary_category": "resource_allocation",
+      "secondary_categories": [],
+      "category_confidence": {
+        "resource_allocation": 1.0
+      },
+      "keywords": [
+        "quality",
+        "assurance",
+        "checkpoints",
+        "insufficient",
+        "allowing",
+        "defects",
+        "propagate",
+        "through",
+        "development",
+        "lifecycle"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb8174",
+      "primary_category": "technical_issues",
+      "secondary_categories": [
+        "policy_recommendations",
+        "system_improvements"
+      ],
+      "category_confidence": {
+        "technical_issues": 0.34782608695652173,
+        "policy_recommendations": 0.34782608695652173,
+        "system_improvements": 0.3043478260869565
+      },
+      "keywords": [
+        "refactored",
+        "authentication",
+        "system",
+        "now",
+        "handles",
+        "concurrent",
+        "users",
+        "improved",
+        "security",
+        "compliance"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb3589",
+      "primary_category": "system_improvements",
+      "secondary_categories": [],
+      "category_confidence": {
+        "system_improvements": 0.7142857142857143
+      },
+      "keywords": [
+        "consider",
+        "implementing",
+        "microservices",
+        "architecture",
+        "improve",
+        "system",
+        "scalability",
+        "maintainability"
+      ],
+      "topics": [
+        "system scalability"
+      ]
+    },
+    {
+      "document_id": "fb6654",
+      "primary_category": "policy_recommendations",
+      "secondary_categories": [
+        "procedural_inefficiencies"
+      ],
+      "category_confidence": {
+        "policy_recommendations": 0.5625,
+        "procedural_inefficiencies": 0.43749999999999994
+      },
+      "keywords": [
+        "testing",
+        "protocol",
+        "lacks",
+        "comprehensive",
+        "edge",
+        "case",
+        "coverage",
+        "resulting",
+        "production",
+        "issues",
+        "prevented"
+      ],
+      "topics": [
+        "testing protocol"
+      ]
+    },
+    {
+      "document_id": "fb8361",
+      "primary_category": "technical_issues",
+      "secondary_categories": [],
+      "category_confidence": {
+        "technical_issues": 1.0
+      },
+      "keywords": [
+        "automated",
+        "deployment",
+        "pipeline",
+        "reduced",
+        "release",
+        "cycle",
+        "maintaining",
+        "zero",
+        "defect",
+        "deployments"
+      ],
+      "topics": [
+        "new automated deployment pipeline"
+      ]
+    },
+    {
+      "document_id": "fb5174",
+      "primary_category": "procedural_inefficiencies",
+      "secondary_categories": [
+        "system_improvements"
+      ],
+      "category_confidence": {
+        "procedural_inefficiencies": 0.38095238095238093,
+        "system_improvements": 0.3333333333333333
+      },
+      "keywords": [
+        "caching",
+        "mechanism",
+        "ineffective",
+        "causing",
+        "redundant",
+        "database",
+        "calls",
+        "degraded",
+        "system",
+        "performance"
+      ],
+      "topics": [
+        "caching mechanism"
+      ]
+    },
+    {
+      "document_id": "fb3216",
+      "primary_category": "system_improvements",
+      "secondary_categories": [],
+      "category_confidence": {
+        "system_improvements": 1.0
+      },
+      "keywords": [
+        "propose",
+        "establishing",
+        "service",
+        "level",
+        "objectives",
+        "slos",
+        "monitoring",
+        "ensure",
+        "system",
+        "reliability"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb5619",
+      "primary_category": "system_improvements",
+      "secondary_categories": [],
+      "category_confidence": {
+        "system_improvements": 1.0
+      },
+      "keywords": [
+        "propose",
+        "establishing",
+        "service",
+        "level",
+        "objectives",
+        "slos",
+        "monitoring",
+        "ensure",
+        "system",
+        "reliability"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb6629",
+      "primary_category": "policy_recommendations",
+      "secondary_categories": [],
+      "category_confidence": {
+        "policy_recommendations": 1.0
+      },
+      "keywords": [
+        "data",
+        "propose",
+        "implementing",
+        "governance",
+        "framework",
+        "ensure",
+        "quality",
+        "compliance"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb1202",
+      "primary_category": "system_improvements",
+      "secondary_categories": [],
+      "category_confidence": {
+        "system_improvements": 0.7142857142857143
+      },
+      "keywords": [
+        "consider",
+        "implementing",
+        "microservices",
+        "architecture",
+        "improve",
+        "system",
+        "scalability",
+        "maintainability"
+      ],
+      "topics": [
+        "system scalability"
+      ]
+    },
+    {
+      "document_id": "fb9084",
+      "primary_category": "communication",
+      "secondary_categories": [],
+      "category_confidence": {
+        "communication": 1.0
+      },
+      "keywords": [
+        "database",
+        "query",
+        "optimization",
+        "needed",
+        "current",
+        "response",
+        "times",
+        "exceed",
+        "acceptable",
+        "thresholds",
+        "during",
+        "concurrent",
+        "operations"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb3258",
+      "primary_category": "policy_recommendations",
+      "secondary_categories": [],
+      "category_confidence": {
+        "policy_recommendations": 1.0
+      },
+      "keywords": [
+        "data",
+        "propose",
+        "implementing",
+        "governance",
+        "framework",
+        "ensure",
+        "quality",
+        "compliance"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb3701",
+      "primary_category": "policy_recommendations",
+      "secondary_categories": [
+        "procedural_inefficiencies"
+      ],
+      "category_confidence": {
+        "policy_recommendations": 0.5625,
+        "procedural_inefficiencies": 0.43749999999999994
+      },
+      "keywords": [
+        "testing",
+        "protocol",
+        "lacks",
+        "comprehensive",
+        "edge",
+        "case",
+        "coverage",
+        "resulting",
+        "production",
+        "issues",
+        "prevented"
+      ],
+      "topics": [
+        "testing protocol"
+      ]
+    },
+    {
+      "document_id": "fb6192",
+      "primary_category": "other",
+      "secondary_categories": [],
+      "category_confidence": {},
+      "keywords": [
+        "code",
+        "quality",
+        "analysis",
+        "reveals",
+        "high",
+        "cyclomatic",
+        "complexity",
+        "core",
+        "business",
+        "logic",
+        "modules",
+        "requiring",
+        "refactoring"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb7704",
+      "primary_category": "policy_recommendations",
+      "secondary_categories": [
+        "procedural_inefficiencies"
+      ],
+      "category_confidence": {
+        "policy_recommendations": 0.5625,
+        "procedural_inefficiencies": 0.43749999999999994
+      },
+      "keywords": [
+        "testing",
+        "protocol",
+        "lacks",
+        "comprehensive",
+        "edge",
+        "case",
+        "coverage",
+        "resulting",
+        "production",
+        "issues",
+        "prevented"
+      ],
+      "topics": [
+        "testing protocol"
+      ]
+    },
+    {
+      "document_id": "fb1583",
+      "primary_category": "system_improvements",
+      "secondary_categories": [],
+      "category_confidence": {
+        "system_improvements": 1.0
+      },
+      "keywords": [
+        "continuous",
+        "suggest",
+        "implementing",
+        "integration",
+        "deployment",
+        "pipeline",
+        "faster",
+        "delivery",
+        "cycles"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb2765",
+      "primary_category": "technical_issues",
+      "secondary_categories": [],
+      "category_confidence": {
+        "technical_issues": 1.0
+      },
+      "keywords": [
+        "automated",
+        "deployment",
+        "pipeline",
+        "reduced",
+        "release",
+        "cycle",
+        "maintaining",
+        "zero",
+        "defect",
+        "deployments"
+      ],
+      "topics": [
+        "new automated deployment pipeline"
+      ]
+    },
+    {
+      "document_id": "fb3425",
+      "primary_category": "procedural_inefficiencies",
+      "secondary_categories": [],
+      "category_confidence": {
+        "procedural_inefficiencies": 1.0
+      },
+      "keywords": [
+        "current",
+        "approval",
+        "workflow",
+        "creates",
+        "unnecessary",
+        "delays",
+        "documents",
+        "sitting",
+        "queues",
+        "business",
+        "days",
+        "average"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb6954",
+      "primary_category": "training_needs",
+      "secondary_categories": [],
+      "category_confidence": {
+        "training_needs": 0.7142857142857143
+      },
+      "keywords": [
+        "documentation",
+        "standards",
+        "inconsistent",
+        "across",
+        "teams",
+        "leading",
+        "knowledge",
+        "transfer",
+        "difficulties",
+        "onboarding",
+        "delays"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb7997",
+      "primary_category": "other",
+      "secondary_categories": [],
+      "category_confidence": {},
+      "keywords": [
+        "code",
+        "quality",
+        "analysis",
+        "reveals",
+        "high",
+        "cyclomatic",
+        "complexity",
+        "core",
+        "business",
+        "logic",
+        "modules",
+        "requiring",
+        "refactoring"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb6784",
+      "primary_category": "technical_issues",
+      "secondary_categories": [],
+      "category_confidence": {
+        "technical_issues": 0.5227272727272727
+      },
+      "keywords": [
+        "api",
+        "endpoints",
+        "lack",
+        "proper",
+        "error",
+        "handling",
+        "return",
+        "inconsistent",
+        "response",
+        "formats",
+        "across",
+        "failure",
+        "scenarios"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb2182",
+      "primary_category": "communication",
+      "secondary_categories": [
+        "system_improvements"
+      ],
+      "category_confidence": {
+        "communication": 0.36363636363636365,
+        "system_improvements": 0.36363636363636365
+      },
+      "keywords": [
+        "suggest",
+        "adopting",
+        "agile",
+        "methodologies",
+        "improve",
+        "project",
+        "delivery",
+        "stakeholder",
+        "communication"
+      ],
+      "topics": [
+        "project delivery"
+      ]
+    },
+    {
+      "document_id": "fb6835",
+      "primary_category": "system_improvements",
+      "secondary_categories": [],
+      "category_confidence": {
+        "system_improvements": 1.0
+      },
+      "keywords": [
+        "propose",
+        "establishing",
+        "service",
+        "level",
+        "objectives",
+        "slos",
+        "monitoring",
+        "ensure",
+        "system",
+        "reliability"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb9924",
+      "primary_category": "system_improvements",
+      "secondary_categories": [],
+      "category_confidence": {
+        "system_improvements": 0.7142857142857143
+      },
+      "keywords": [
+        "consider",
+        "implementing",
+        "microservices",
+        "architecture",
+        "improve",
+        "system",
+        "scalability",
+        "maintainability"
+      ],
+      "topics": [
+        "system scalability"
+      ]
+    },
+    {
+      "document_id": "fb2728",
+      "primary_category": "procedural_inefficiencies",
+      "secondary_categories": [
+        "system_improvements"
+      ],
+      "category_confidence": {
+        "procedural_inefficiencies": 0.38095238095238093,
+        "system_improvements": 0.3333333333333333
+      },
+      "keywords": [
+        "caching",
+        "mechanism",
+        "ineffective",
+        "causing",
+        "redundant",
+        "database",
+        "calls",
+        "degraded",
+        "system",
+        "performance"
+      ],
+      "topics": [
+        "caching mechanism"
+      ]
+    },
+    {
+      "document_id": "fb2743",
+      "primary_category": "procedural_inefficiencies",
+      "secondary_categories": [
+        "system_improvements"
+      ],
+      "category_confidence": {
+        "procedural_inefficiencies": 0.38095238095238093,
+        "system_improvements": 0.3333333333333333
+      },
+      "keywords": [
+        "caching",
+        "mechanism",
+        "ineffective",
+        "causing",
+        "redundant",
+        "database",
+        "calls",
+        "degraded",
+        "system",
+        "performance"
+      ],
+      "topics": [
+        "caching mechanism"
+      ]
+    },
+    {
+      "document_id": "fb1159",
+      "primary_category": "communication",
+      "secondary_categories": [
+        "system_improvements",
+        "technical_issues"
+      ],
+      "category_confidence": {
+        "communication": 0.35,
+        "system_improvements": 0.35,
+        "technical_issues": 0.3
+      },
+      "keywords": [
+        "implementation",
+        "monitoring",
+        "dashboard",
+        "improved",
+        "incident",
+        "response",
+        "enhanced",
+        "system",
+        "visibility"
+      ],
+      "topics": [
+        "monitoring dashboard"
+      ]
+    },
+    {
+      "document_id": "fb7409",
+      "primary_category": "technical_issues",
+      "secondary_categories": [],
+      "category_confidence": {
+        "technical_issues": 1.0
+      },
+      "keywords": [
+        "critical",
+        "security",
+        "vulnerability",
+        "identified",
+        "authentication",
+        "module",
+        "sql",
+        "injection",
+        "possible",
+        "through",
+        "user",
+        "input",
+        "validation",
+        "gaps"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb6363",
+      "primary_category": "technical_issues",
+      "secondary_categories": [
+        "policy_recommendations",
+        "system_improvements"
+      ],
+      "category_confidence": {
+        "technical_issues": 0.34782608695652173,
+        "policy_recommendations": 0.34782608695652173,
+        "system_improvements": 0.3043478260869565
+      },
+      "keywords": [
+        "refactored",
+        "authentication",
+        "system",
+        "now",
+        "handles",
+        "concurrent",
+        "users",
+        "improved",
+        "security",
+        "compliance"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb2569",
+      "primary_category": "resource_allocation",
+      "secondary_categories": [
+        "procedural_inefficiencies"
+      ],
+      "category_confidence": {
+        "resource_allocation": 0.489795918367347,
+        "procedural_inefficiencies": 0.38775510204081626
+      },
+      "keywords": [
+        "resource",
+        "allocation",
+        "process",
+        "manual",
+        "consuming",
+        "causing",
+        "project",
+        "delays",
+        "budget",
+        "overruns"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb8618",
+      "primary_category": "technical_issues",
+      "secondary_categories": [],
+      "category_confidence": {
+        "technical_issues": 1.0
+      },
+      "keywords": [
+        "recommend",
+        "implementing",
+        "automated",
+        "security",
+        "scanning",
+        "development",
+        "pipeline"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb7083",
+      "primary_category": "training_needs",
+      "secondary_categories": [],
+      "category_confidence": {
+        "training_needs": 1.0
+      },
+      "keywords": [
+        "training",
+        "programs",
+        "outdated",
+        "don",
+        "reflect",
+        "current",
+        "best",
+        "practices",
+        "technology",
+        "stack",
+        "changes"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb8011",
+      "primary_category": "resource_allocation",
+      "secondary_categories": [
+        "procedural_inefficiencies"
+      ],
+      "category_confidence": {
+        "resource_allocation": 0.489795918367347,
+        "procedural_inefficiencies": 0.38775510204081626
+      },
+      "keywords": [
+        "resource",
+        "allocation",
+        "process",
+        "manual",
+        "consuming",
+        "causing",
+        "project",
+        "delays",
+        "budget",
+        "overruns"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb5755",
+      "primary_category": "system_improvements",
+      "secondary_categories": [],
+      "category_confidence": {
+        "system_improvements": 0.7142857142857143
+      },
+      "keywords": [
+        "consider",
+        "implementing",
+        "microservices",
+        "architecture",
+        "improve",
+        "system",
+        "scalability",
+        "maintainability"
+      ],
+      "topics": [
+        "system scalability"
+      ]
+    },
+    {
+      "document_id": "fb9813",
+      "primary_category": "other",
+      "secondary_categories": [],
+      "category_confidence": {},
+      "keywords": [
+        "code",
+        "quality",
+        "analysis",
+        "reveals",
+        "high",
+        "cyclomatic",
+        "complexity",
+        "core",
+        "business",
+        "logic",
+        "modules",
+        "requiring",
+        "refactoring"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb2071",
+      "primary_category": "other",
+      "secondary_categories": [],
+      "category_confidence": {},
+      "keywords": [
+        "recommend",
+        "adopting",
+        "infrastructure",
+        "code",
+        "practices",
+        "ensure",
+        "consistent",
+        "environment",
+        "deployments"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb7529",
+      "primary_category": "other",
+      "secondary_categories": [],
+      "category_confidence": {},
+      "keywords": [
+        "code",
+        "quality",
+        "analysis",
+        "reveals",
+        "high",
+        "cyclomatic",
+        "complexity",
+        "core",
+        "business",
+        "logic",
+        "modules",
+        "requiring",
+        "refactoring"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb7613",
+      "primary_category": "communication",
+      "secondary_categories": [],
+      "category_confidence": {
+        "communication": 1.0
+      },
+      "keywords": [
+        "database",
+        "query",
+        "optimization",
+        "needed",
+        "current",
+        "response",
+        "times",
+        "exceed",
+        "acceptable",
+        "thresholds",
+        "during",
+        "concurrent",
+        "operations"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb8338",
+      "primary_category": "training_needs",
+      "secondary_categories": [],
+      "category_confidence": {
+        "training_needs": 0.7142857142857143
+      },
+      "keywords": [
+        "documentation",
+        "standards",
+        "inconsistent",
+        "across",
+        "teams",
+        "leading",
+        "knowledge",
+        "transfer",
+        "difficulties",
+        "onboarding",
+        "delays"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb5955",
+      "primary_category": "technical_issues",
+      "secondary_categories": [],
+      "category_confidence": {
+        "technical_issues": 1.0
+      },
+      "keywords": [
+        "critical",
+        "security",
+        "vulnerability",
+        "identified",
+        "authentication",
+        "module",
+        "sql",
+        "injection",
+        "possible",
+        "through",
+        "user",
+        "input",
+        "validation",
+        "gaps"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb6700",
+      "primary_category": "resource_allocation",
+      "secondary_categories": [],
+      "category_confidence": {
+        "resource_allocation": 1.0
+      },
+      "keywords": [
+        "quality",
+        "assurance",
+        "checkpoints",
+        "insufficient",
+        "allowing",
+        "defects",
+        "propagate",
+        "through",
+        "development",
+        "lifecycle"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb6345",
+      "primary_category": "system_improvements",
+      "secondary_categories": [
+        "technical_issues"
+      ],
+      "category_confidence": {
+        "system_improvements": 0.6842105263157894,
+        "technical_issues": 0.3157894736842105
+      },
+      "keywords": [
+        "integration",
+        "third",
+        "party",
+        "services",
+        "fails",
+        "intermittently",
+        "due",
+        "timeout",
+        "configuration",
+        "issues"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb1282",
+      "primary_category": "communication",
+      "secondary_categories": [],
+      "category_confidence": {
+        "communication": 1.0
+      },
+      "keywords": [
+        "communication",
+        "channels",
+        "between",
+        "departments",
+        "fragmented",
+        "leading",
+        "duplicated",
+        "efforts",
+        "missed",
+        "dependencies"
+      ],
+      "topics": []
+    }
+  ],
+  "insights": [
+    {
+      "id": "insight_0",
+      "type": "sentiment_shift",
+      "description": "Neutral sentiment is particularly strong in the 'system_improvements' category (90.0% of feedback)",
+      "severity": "high",
+      "frequency": 9,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "system_improvements"
+      ],
+      "supporting_evidence": [
+        "9 out of 10 items in this category are neutral",
+        "Overall sentiment distribution: {'positive': 0.1, 'neutral': 0.9}"
+      ]
+    },
+    {
+      "id": "insight_1",
+      "type": "sentiment_shift",
+      "description": "Neutral sentiment is particularly strong in the 'policy_recommendations' category (100.0% of feedback)",
+      "severity": "high",
+      "frequency": 6,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "policy_recommendations"
+      ],
+      "supporting_evidence": [
+        "6 out of 6 items in this category are neutral",
+        "Overall sentiment distribution: {'neutral': 1.0}"
+      ]
+    },
+    {
+      "id": "insight_2",
+      "type": "sentiment_shift",
+      "description": "Neutral sentiment is particularly strong in the 'communication' category (85.7% of feedback)",
+      "severity": "high",
+      "frequency": 6,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "communication"
+      ],
+      "supporting_evidence": [
+        "6 out of 7 items in this category are neutral",
+        "Overall sentiment distribution: {'neutral': 0.8571428571428571, 'positive': 0.14285714285714285}"
+      ]
+    },
+    {
+      "id": "insight_3",
+      "type": "sentiment_shift",
+      "description": "Neutral sentiment is particularly strong in the 'other' category (80.0% of feedback)",
+      "severity": "high",
+      "frequency": 4,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "other"
+      ],
+      "supporting_evidence": [
+        "4 out of 5 items in this category are neutral",
+        "Overall sentiment distribution: {'neutral': 0.8, 'positive': 0.2}"
+      ]
+    },
+    {
+      "id": "insight_4",
+      "type": "sentiment_shift",
+      "description": "Negative sentiment is particularly strong in the 'procedural_inefficiencies' category (75.0% of feedback)",
+      "severity": "high",
+      "frequency": 3,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "procedural_inefficiencies"
+      ],
+      "supporting_evidence": [
+        "3 out of 4 items in this category are negative",
+        "Overall sentiment distribution: {'negative': 0.75, 'neutral': 0.25}"
+      ]
+    },
+    {
+      "id": "insight_5",
+      "type": "sentiment_shift",
+      "description": "Neutral sentiment is particularly strong in the 'training_needs' category (100.0% of feedback)",
+      "severity": "high",
+      "frequency": 3,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "training_needs"
+      ],
+      "supporting_evidence": [
+        "3 out of 3 items in this category are neutral",
+        "Overall sentiment distribution: {'neutral': 1.0}"
+      ]
+    },
+    {
+      "id": "insight_6",
+      "type": "trend",
+      "description": "Significant increase in feedback volume in the last week (20 items)",
+      "severity": "medium",
+      "frequency": 20,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "All categories"
+      ],
+      "supporting_evidence": [
+        "20 feedback items in the last week",
+        "50 items in the last month"
+      ]
+    },
+    {
+      "id": "insight_7",
+      "type": "frequent_issue",
+      "description": "Identified 6 documents mentioning issues, primarily in the 'policy_recommendations' category",
+      "severity": "medium",
+      "frequency": 6,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "policy_recommendations",
+        "technical_issues",
+        "system_improvements"
+      ],
+      "supporting_evidence": [
+        "4 issues in 'policy_recommendations' category",
+        "Common issue indicators: issue, problem, error"
+      ]
+    },
+    {
+      "id": "insight_8",
+      "type": "sentiment_shift",
+      "description": "Neutral sentiment is particularly strong in the 'resource_allocation' category (66.7% of feedback)",
+      "severity": "medium",
+      "frequency": 4,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "resource_allocation"
+      ],
+      "supporting_evidence": [
+        "4 out of 6 items in this category are neutral",
+        "Overall sentiment distribution: {'neutral': 0.6666666666666666, 'negative': 0.3333333333333333}"
+      ]
+    },
+    {
+      "id": "insight_9",
+      "type": "sentiment_shift",
+      "description": "Feedback in the 'procedural_inefficiencies' category shows negative sentiment on average",
+      "severity": "medium",
+      "frequency": 4,
+      "trend_direction": "stable",
+      "affected_areas": [
+        "procedural_inefficiencies"
+      ],
+      "supporting_evidence": [
+        "Average sentiment score: -0.30 (range: -1 to 1)",
+        "Based on 4 feedback items in this category"
+      ]
+    },
+    {
+      "id": "insight_10",
+      "type": "improvement_area",
+      "description": "The 'procedural_inefficiencies' category shows consistently negative sentiment (avg score: -0.30)",
+      "severity": "medium",
+      "frequency": 4,
+      "trend_direction": "decreasing",
+      "affected_areas": [
+        "procedural_inefficiencies"
+      ],
+      "supporting_evidence": [
+        "Based on 4 feedback items in this category",
+        "Average sentiment score: -0.30 (range: -1 to 1)"
+      ]
+    },
+    {
+      "id": "insight_11",
+      "type": "emerging_topic",
+      "description": "Potential emerging topics detected in feedback",
+      "severity": "low",
+      "frequency": 114,
+      "trend_direction": "increasing",
+      "affected_areas": [
+        "Content analysis"
+      ],
+      "supporting_evidence": [
+        "Terms appearing multiple times: automated, deployment, pipeline, reduced, release",
+        "Total unique terms: 179"
+      ]
+    },
+    {
+      "id": "insight_12",
+      "type": "feedback_quality",
+      "description": "Feedback items are relatively short, which may indicate lack of detail",
+      "severity": "low",
+      "frequency": 50,
+      "trend_direction": "stable",
+      "affected_areas": [
+        "Feedback quality"
+      ],
+      "supporting_evidence": [
+        "Average feedback length: 13.5 words",
+        "Total feedback items analyzed: 50"
+      ]
+    },
+    {
+      "id": "insight_13",
+      "type": "pattern",
+      "description": "Feedback is distributed across 6 major categories, indicating diverse concerns",
+      "severity": "low",
+      "frequency": 6,
+      "trend_direction": "stable",
+      "affected_areas": [
+        "technical_issues",
+        "policy_recommendations",
+        "resource_allocation",
+        "system_improvements",
+        "communication",
+        "procedural_inefficiencies",
+        "other",
+        "training_needs"
+      ],
+      "supporting_evidence": [
+        "Categories with \u226510% of feedback: 6",
+        "Category distribution: system_improvements: 20.0%, technical_issues: 18.0%, communication: 14.0%, policy_recommendations: 12.0%, resource_allocation: 12.0%, other: 10.0%, procedural_inefficiencies: 8.0%, training_needs: 6.0%"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "recommendation_0",
+      "title": "Resolve frequent issue in policy_recommendations",
+      "description": "A frequent issue has been reported in policy_recommendations. monitor the situation to identify emerging trends.",
+      "priority": "high",
+      "category": "frequent_issue",
+      "effort": "high",
+      "expected_impact": "high",
+      "timeline": "immediate",
+      "resources": [
+        "cross-functional team",
+        "dedicated development time",
+        "budget allocation"
+      ],
+      "success_metrics": [
+        "Reduction in policy_recommendations related issues",
+        "Stakeholder satisfaction with policy_recommendations improvements",
+        "Time to resolution for policy_recommendations related items"
+      ],
+      "related_insights": [
+        "frequent_issue"
+      ]
+    },
+    {
+      "id": "recommendation_1",
+      "title": "Resolve frequent issue in technical_issues",
+      "description": "A frequent issue has been reported in technical_issues. monitor the situation to identify any emerging patterns.",
+      "priority": "high",
+      "category": "frequent_issue",
+      "effort": "high",
+      "expected_impact": "high",
+      "timeline": "immediate",
+      "resources": [
+        "cross-functional team",
+        "dedicated development time",
+        "technical expertise",
+        "budget allocation"
+      ],
+      "success_metrics": [
+        "Reduction in technical_issues related issues",
+        "Stakeholder satisfaction with technical_issues improvements",
+        "Time to resolution for technical_issues related items"
+      ],
+      "related_insights": [
+        "frequent_issue"
+      ]
+    },
+    {
+      "id": "recommendation_2",
+      "title": "Resolve frequent issue in system_improvements",
+      "description": "A frequent issue has been reported in system_improvements. monitor the situation to identify emerging trends.",
+      "priority": "high",
+      "category": "frequent_issue",
+      "effort": "high",
+      "expected_impact": "high",
+      "timeline": "immediate",
+      "resources": [
+        "cross-functional team",
+        "dedicated development time",
+        "budget allocation"
+      ],
+      "success_metrics": [
+        "Reduction in system_improvements related issues",
+        "Stakeholder satisfaction with system_improvements improvements",
+        "Time to resolution for system_improvements related items"
+      ],
+      "related_insights": [
+        "frequent_issue"
+      ]
+    },
+    {
+      "id": "recommendation_3",
+      "title": "Address the increasing trend in All categories",
+      "description": "The analysis shows a increasing trend in All categories feedback. monitor the situation to identify emerging trends.",
+      "priority": "high",
+      "category": "trend",
+      "effort": "medium",
+      "expected_impact": "high",
+      "timeline": "short-term",
+      "resources": [
+        "cross-functional team",
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with All categories improvements",
+        "Time to resolution for All categories related items"
+      ],
+      "related_insights": [
+        "trend"
+      ]
+    },
+    {
+      "id": "recommendation_4",
+      "title": "Improve procedural_inefficiencies in procedural_inefficiencies",
+      "description": "An area for improvement has been identified in procedural_inefficiencies related to procedural_inefficiencies. analyze the process to identify potential improvements.",
+      "priority": "medium",
+      "category": "improvement_area",
+      "effort": "medium",
+      "expected_impact": "medium",
+      "timeline": "medium-term",
+      "resources": [
+        "dedicated development time",
+        "process improvement team"
+      ],
+      "success_metrics": [
+        "Reduction in procedural_inefficiencies related issues",
+        "Stakeholder satisfaction with procedural_inefficiencies improvements",
+        "Time to resolution for procedural_inefficiencies related items"
+      ],
+      "related_insights": [
+        "improvement_area"
+      ]
+    },
+    {
+      "id": "recommendation_5",
+      "title": "Address emerging topic: Content analysis",
+      "description": "An emerging topic 'Content analysis' has been identified in the feedback. Consider monitor the situation to identify emerging trends.",
+      "priority": "medium",
+      "category": "emerging_topic",
+      "effort": "medium",
+      "expected_impact": "medium",
+      "timeline": "medium-term",
+      "resources": [
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with Content analysis improvements",
+        "Time to resolution for Content analysis related items"
+      ],
+      "related_insights": [
+        "emerging_topic"
+      ]
+    },
+    {
+      "id": "recommendation_6",
+      "title": "Address the pattern of identified patterns in technical_issues",
+      "description": "A consistent pattern of identified patterns has been identified in technical_issues feedback. Consider monitor the situation to identify any emerging patterns.",
+      "priority": "medium",
+      "category": "pattern",
+      "effort": "medium",
+      "expected_impact": "medium",
+      "timeline": "medium-term",
+      "resources": [
+        "dedicated development time",
+        "technical expertise"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with technical_issues improvements",
+        "Time to resolution for technical_issues related items"
+      ],
+      "related_insights": [
+        "pattern"
+      ]
+    },
+    {
+      "id": "recommendation_7",
+      "title": "Address the pattern of identified patterns in policy_recommendations",
+      "description": "A consistent pattern of identified patterns has been identified in policy_recommendations feedback. Consider monitor the situation to identify emerging trends.",
+      "priority": "medium",
+      "category": "pattern",
+      "effort": "medium",
+      "expected_impact": "medium",
+      "timeline": "medium-term",
+      "resources": [
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with policy_recommendations improvements",
+        "Time to resolution for policy_recommendations related items"
+      ],
+      "related_insights": [
+        "pattern"
+      ]
+    },
+    {
+      "id": "recommendation_8",
+      "title": "Address the pattern of identified patterns in resource_allocation",
+      "description": "A consistent pattern of identified patterns has been identified in resource_allocation feedback. Consider monitor the situation to identify emerging trends.",
+      "priority": "medium",
+      "category": "pattern",
+      "effort": "medium",
+      "expected_impact": "medium",
+      "timeline": "medium-term",
+      "resources": [
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with resource_allocation improvements",
+        "Time to resolution for resource_allocation related items"
+      ],
+      "related_insights": [
+        "pattern"
+      ]
+    },
+    {
+      "id": "recommendation_9",
+      "title": "Improve feedback quality in Feedback quality",
+      "description": "Opportunities to improve feedback quality have been identified in Feedback quality. monitor the situation to identify emerging trends.",
+      "priority": "low",
+      "category": "feedback_quality",
+      "effort": "medium",
+      "expected_impact": "low",
+      "timeline": "long-term",
+      "resources": [
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with Feedback quality improvements",
+        "Time to resolution for Feedback quality related items"
+      ],
+      "related_insights": [
+        "feedback_quality"
+      ]
+    }
+  ]
+}

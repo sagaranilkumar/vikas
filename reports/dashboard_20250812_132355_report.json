@@ -1,0 +1,312 @@
+{
+  "report_id": "dashboard_20250812_132355",
+  "generated_at": "2025-08-12T13:23:55.543618",
+  "document_count": 5,
+  "insight_count": 3,
+  "recommendation_count": 5,
+  "summary": {
+    "sentiment_distribution": {
+      "neutral": 4,
+      "positive": 1
+    },
+    "category_distribution": {
+      "other": 2,
+      "communication": 1,
+      "resource_allocation": 1,
+      "procedural_inefficiencies": 1
+    },
+    "insight_severity": {
+      "medium": 1,
+      "low": 2
+    },
+    "recommendation_priority": {
+      "medium": 3,
+      "low": 2
+    },
+    "total_documents": 5,
+    "total_insights": 3,
+    "total_recommendations": 5,
+    "cleaned_percentage": 100.0,
+    "avg_sentiment_confidence": 0.06720000000000001,
+    "avg_primary_category_probability": 1.0
+  },
+  "sentiment_analysis": [
+    {
+      "document_id": "fb001",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb002",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": [
+        "need improvement"
+      ]
+    },
+    {
+      "document_id": "fb003",
+      "sentiment": "neutral",
+      "score": 0.09,
+      "confidence": 0.06,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb004",
+      "sentiment": "positive",
+      "score": 0.4,
+      "confidence": 0.096,
+      "key_phrases": []
+    },
+    {
+      "document_id": "fb005",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.06,
+      "key_phrases": []
+    }
+  ],
+  "categorization": [
+    {
+      "document_id": "fb001",
+      "primary_category": "other",
+      "secondary_categories": [],
+      "category_confidence": {},
+      "keywords": [
+        "design",
+        "meets",
+        "specified",
+        "engineering",
+        "standards",
+        "tolerances",
+        "tightening"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb002",
+      "primary_category": "communication",
+      "secondary_categories": [],
+      "category_confidence": {
+        "communication": 1.0
+      },
+      "keywords": [
+        "summary",
+        "department",
+        "exceeded",
+        "kpis",
+        "documentation",
+        "processes",
+        "improvement"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb003",
+      "primary_category": "resource_allocation",
+      "secondary_categories": [],
+      "category_confidence": {
+        "resource_allocation": 1.0
+      },
+      "keywords": [
+        "code",
+        "quality",
+        "generally",
+        "high",
+        "tests",
+        "coverage",
+        "especially",
+        "edge",
+        "cases"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb004",
+      "primary_category": "procedural_inefficiencies",
+      "secondary_categories": [],
+      "category_confidence": {
+        "procedural_inefficiencies": 1.0
+      },
+      "keywords": [
+        "workflow",
+        "efficiency",
+        "improved",
+        "handoff",
+        "delays",
+        "remain",
+        "concern"
+      ],
+      "topics": []
+    },
+    {
+      "document_id": "fb005",
+      "primary_category": "other",
+      "secondary_categories": [],
+      "category_confidence": {},
+      "keywords": [
+        "consider",
+        "incorporating",
+        "sustainability",
+        "metrics",
+        "evaluations"
+      ],
+      "topics": []
+    }
+  ],
+  "insights": [
+    {
+      "id": "insight_0",
+      "type": "trend",
+      "description": "The most common feedback category is 'other' (40.0% of all feedback)",
+      "severity": "medium",
+      "frequency": 2,
+      "trend_direction": "stable",
+      "affected_areas": [
+        "other"
+      ],
+      "supporting_evidence": [
+        "2 out of 5 feedback items are in this category",
+        "Top 3 categories: other (40.0%), communication (20.0%), resource_allocation (20.0%)"
+      ]
+    },
+    {
+      "id": "insight_1",
+      "type": "feedback_quality",
+      "description": "Feedback items are relatively short, which may indicate lack of detail",
+      "severity": "low",
+      "frequency": 5,
+      "trend_direction": "stable",
+      "affected_areas": [
+        "Feedback quality"
+      ],
+      "supporting_evidence": [
+        "Average feedback length: 11.0 words",
+        "Total feedback items analyzed: 5"
+      ]
+    },
+    {
+      "id": "insight_2",
+      "type": "pattern",
+      "description": "Feedback is distributed across 4 major categories, indicating diverse concerns",
+      "severity": "low",
+      "frequency": 4,
+      "trend_direction": "stable",
+      "affected_areas": [
+        "other",
+        "communication",
+        "resource_allocation",
+        "procedural_inefficiencies"
+      ],
+      "supporting_evidence": [
+        "Categories with \u226510% of feedback: 4",
+        "Category distribution: other: 40.0%, communication: 20.0%, resource_allocation: 20.0%, procedural_inefficiencies: 20.0%"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "recommendation_0",
+      "title": "Address the pattern of identified patterns in other",
+      "description": "A consistent pattern of identified patterns has been identified in other feedback. Consider monitor the situation to identify emerging trends.",
+      "priority": "medium",
+      "category": "pattern",
+      "effort": "medium",
+      "expected_impact": "medium",
+      "timeline": "medium-term",
+      "resources": [
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with other improvements",
+        "Time to resolution for other related items"
+      ],
+      "related_insights": [
+        "pattern"
+      ]
+    },
+    {
+      "id": "recommendation_1",
+      "title": "Address the pattern of identified patterns in communication",
+      "description": "A consistent pattern of identified patterns has been identified in communication feedback. Consider monitor the situation to identify emerging trends.",
+      "priority": "medium",
+      "category": "pattern",
+      "effort": "medium",
+      "expected_impact": "medium",
+      "timeline": "medium-term",
+      "resources": [
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with communication improvements",
+        "Time to resolution for communication related items"
+      ],
+      "related_insights": [
+        "pattern"
+      ]
+    },
+    {
+      "id": "recommendation_2",
+      "title": "Address the pattern of identified patterns in resource_allocation",
+      "description": "A consistent pattern of identified patterns has been identified in resource_allocation feedback. Consider monitor the situation to identify emerging trends.",
+      "priority": "medium",
+      "category": "pattern",
+      "effort": "medium",
+      "expected_impact": "medium",
+      "timeline": "medium-term",
+      "resources": [
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with resource_allocation improvements",
+        "Time to resolution for resource_allocation related items"
+      ],
+      "related_insights": [
+        "pattern"
+      ]
+    },
+    {
+      "id": "recommendation_3",
+      "title": "Address the stable trend in other",
+      "description": "The analysis shows a stable trend in other feedback. monitor the situation to identify emerging trends.",
+      "priority": "low",
+      "category": "trend",
+      "effort": "medium",
+      "expected_impact": "low",
+      "timeline": "long-term",
+      "resources": [
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with other improvements",
+        "Time to resolution for other related items"
+      ],
+      "related_insights": [
+        "trend"
+      ]
+    },
+    {
+      "id": "recommendation_4",
+      "title": "Improve feedback quality in Feedback quality",
+      "description": "Opportunities to improve feedback quality have been identified in Feedback quality. monitor the situation to identify emerging trends.",
+      "priority": "low",
+      "category": "feedback_quality",
+      "effort": "medium",
+      "expected_impact": "low",
+      "timeline": "long-term",
+      "resources": [
+        "dedicated development time"
+      ],
+      "success_metrics": [
+        "Stakeholder satisfaction with Feedback quality improvements",
+        "Time to resolution for Feedback quality related items"
+      ],
+      "related_insights": [
+        "feedback_quality"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Feedback Analysis Report - dashboard_20250812_132343</title>
+                <style>
+                    body { 
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                        line-height: 1.6; 
+                        margin: 0; 
+                        padding: 20px;
+                        color: #333;
+                    }
+                    .header { 
+                        text-align: center; 
+                        margin-bottom: 30px;
+                        padding: 20px;
+                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        color: white;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                    }
+                    .section { 
+                        margin-bottom: 30px;
+                        background: white;
+                        padding: 20px;
+                        border-radius: 8px;
+                        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+                    }
+                    .section h2 { 
+                        border-bottom: 2px solid #eee; 
+                        padding-bottom: 10px;
+                        color: #444;
+                        margin-top: 0;
+                    }
+                    .metrics-grid {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+                        gap: 20px;
+                        margin: 20px 0;
+                    }
+                    .metric-card { 
+                        background: #f8f9fa;
+                        border-left: 4px solid #4CAF50;
+                        padding: 20px;
+                        margin: 0;
+                        border-radius: 6px;
+                        transition: transform 0.2s, box-shadow 0.2s;
+                        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+                    }
+                    .metric-card:hover {
+                        transform: translateY(-3px);
+                        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                    }
+                    .metric-card h3 {
+                        margin: 0 0 10px 0;
+                        font-size: 0.95em;
+                        color: #666;
+                        font-weight: 600;
+                    }
+                    .metric-card .value {
+                        font-size: 24px;
+                        font-weight: bold;
+                        color: #2c3e50;
+                        margin: 5px 0;
+                    }
+                    .metric-card .subtext {
+                        font-size: 0.8em;
+                        color: #7f8c8d;
+                        margin: 0;
+                    }
+                    .insight, .recommendation { 
+                        background: #f8f9fa; 
+                        border-left: 4px solid #2196F3; 
+                        padding: 15px 20px; 
+                        margin: 15px 0;
+                        border-radius: 4px;
+                        transition: transform 0.2s, box-shadow 0.2s;
+                    }
+                    .insight:hover, .recommendation:hover {
+                        transform: translateX(5px);
+                        box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+                    }
+                    .priority-high { border-left-color: #e74c3c; }
+                    .priority-medium { border-left-color: #f39c12; }
+                    .priority-low { border-left-color: #2ecc71; }
+                    .quality-metrics {
+                        margin-top: 20px;
+                        padding: 15px;
+                        background: #f0f7ff;
+                        border-radius: 6px;
+                        border-left: 4px solid #3498db;
+                    }
+                    .quality-metrics h3 {
+                        margin-top: 0;
+                        color: #2980b9;
+                    }
+                    .quality-grid {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                        gap: 15px;
+                        margin-top: 10px;
+                    }
+                    .quality-metric {
+                        background: white;
+                        padding: 12px;
+                        border-radius: 4px;
+                        text-align: center;
+                        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+                    }
+                    .quality-metric .value {
+                        font-size: 1.5em;
+                        font-weight: bold;
+                        color: #2c3e50;
+                    }
+                    .quality-metric .label {
+                        font-size: 0.8em;
+                        color: #7f8c8d;
+                        margin-top: 5px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="header">
+                    <h1 style="margin: 0 0 10px 0;">Feedback Analysis Report</h1>
+                    <p style="margin: 5px 0; opacity: 0.9;">Generated on: 2025-08-12T13:23:43.541757</p>
+                    <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Report ID: dashboard_20250812_132343</p>
+                </div>
+                
+                <div class="section">
+                    <h2>Summary</h2>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <h3>Documents Processed</h3>
+                            <div class="value">5</div>
+                            <p class="subtext">Total feedback documents analyzed</p>
+                        </div>
+                        <div class="metric-card">
+                            <h3>Key Insights</h3>
+                            <div class="value">3</div>
+                            <p class="subtext">Important patterns identified</p>
+                        </div>
+                        <div class="metric-card">
+                            <h3>Recommendations</h3>
+                            <div class="value">5</div>
+                            <p class="subtext">Actionable suggestions</p>
+                        </div>
+                    </div>
+                    
+                    <div class="quality-metrics">
+                        <h3>Data Quality & Confidence</h3>
+                        <div class="quality-grid">
+                            <div class="quality-metric">
+                                <div class="value">100.0%</div>
+                                <div class="label">Documents Cleaned</div>
+                            </div>
+                            <div class="quality-metric">
+                                <div class="value">6.7%</div>
+                                <div class="label">Avg. Sentiment Confidence</div>
+                            </div>
+                            <div class="quality-metric">
+                                <div class="value">100.0%</div>
+                                <div class="label">Avg. Category Confidence</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>Key Insights</h2>
+                    
+                <div class="insight">
+                    <h3>trend</h3>
+                    <p><strong>Severity:</strong> Medium</p>
+                    <p>The most common feedback category is 'other' (40.0% of all feedback)</p>
+                    <p><strong>Affected Areas:</strong> other</p>
+                </div>
+            
+
+                <div class="insight">
+                    <h3>feedback_quality</h3>
+                    <p><strong>Severity:</strong> Low</p>
+                    <p>Feedback items are relatively short, which may indicate lack of detail</p>
+                    <p><strong>Affected Areas:</strong> Feedback quality</p>
+                </div>
+            
+
+                <div class="insight">
+                    <h3>pattern</h3>
+                    <p><strong>Severity:</strong> Low</p>
+                    <p>Feedback is distributed across 4 major categories, indicating diverse concerns</p>
+                    <p><strong>Affected Areas:</strong> other, communication, resource_allocation, procedural_inefficiencies</p>
+                </div>
+            
+                </div>
+                
+                <div class="section">
+                    <h2>Recommendations</h2>
+                    
+                <div class="recommendation priority-medium">
+                    <h3>Address the pattern of identified patterns in other</h3>
+                    <p>A consistent pattern of identified patterns has been identified in other feedback. Consider monitor the situation to identify emerging trends.</p>
+                    <div style="display: flex; gap: 20px; margin-top: 10px;">
+                        <div><strong>Priority:</strong> Medium</div>
+                        <div><strong>Effort:</strong> Medium</div>
+                        <div><strong>Timeline:</strong> medium-term</div>
+                    </div>
+                </div>
+            
+
+                <div class="recommendation priority-medium">
+                    <h3>Address the pattern of identified patterns in communication</h3>
+                    <p>A consistent pattern of identified patterns has been identified in communication feedback. Consider monitor the situation to identify emerging trends.</p>
+                    <div style="display: flex; gap: 20px; margin-top: 10px;">
+                        <div><strong>Priority:</strong> Medium</div>
+                        <div><strong>Effort:</strong> Medium</div>
+                        <div><strong>Timeline:</strong> medium-term</div>
+                    </div>
+                </div>
+            
+
+                <div class="recommendation priority-medium">
+                    <h3>Address the pattern of identified patterns in resource_allocation</h3>
+                    <p>A consistent pattern of identified patterns has been identified in resource_allocation feedback. Consider monitor the situation to identify emerging trends.</p>
+                    <div style="display: flex; gap: 20px; margin-top: 10px;">
+                        <div><strong>Priority:</strong> Medium</div>
+                        <div><strong>Effort:</strong> Medium</div>
+                        <div><strong>Timeline:</strong> medium-term</div>
+                    </div>
+                </div>
+            
+
+                <div class="recommendation priority-low">
+                    <h3>Address the stable trend in other</h3>
+                    <p>The analysis shows a stable trend in other feedback. monitor the situation to identify emerging trends.</p>
+                    <div style="display: flex; gap: 20px; margin-top: 10px;">
+                        <div><strong>Priority:</strong> Low</div>
+                        <div><strong>Effort:</strong> Medium</div>
+                        <div><strong>Timeline:</strong> long-term</div>
+                    </div>
+                </div>
+            
+
+                <div class="recommendation priority-low">
+                    <h3>Improve feedback quality in Feedback quality</h3>
+                    <p>Opportunities to improve feedback quality have been identified in Feedback quality. monitor the situation to identify emerging trends.</p>
+                    <div style="display: flex; gap: 20px; margin-top: 10px;">
+                        <div><strong>Priority:</strong> Low</div>
+                        <div><strong>Effort:</strong> Medium</div>
+                        <div><strong>Timeline:</strong> long-term</div>
+                    </div>
+                </div>
+            
+                </div>
+            </body>
+            </html>
+            
